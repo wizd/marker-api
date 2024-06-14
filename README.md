@@ -240,6 +240,10 @@ I want marker to be as widely accessible as possible, while still funding my dev
 
 The weights for the models are licensed `cc-by-nc-sa-4.0`, but I will waive that for any organization under $5M USD in gross revenue in the most recent 12-month period AND under $5M in lifetime VC/angel funding raised. If you want to remove the GPL license requirements (dual-license) and/or use the weights commercially over the revenue limit, check out the options [here](https://www.datalab.to).
 
+# Hosted API
+
+There is a hosted API for marker available [here](https://www.datalab.to/).  It's currently in beta, and I'm working on optimizing speed.
+
 # Community
 
 [Discord](https://discord.gg//KuZwXNGnfH) is where we discuss future development.
@@ -365,7 +369,7 @@ Peak GPU memory usage during the benchmark is `4.2GB` for nougat, and `4.1GB` fo
 
 **Throughput**
 
-Marker takes about 4.5GB of VRAM on average per task, so you can convert 10 documents in parallel on an A6000.
+Marker takes about 4GB of VRAM on average per task, so you can convert 12 documents in parallel on an A6000.
 
 ![Benchmark results](data/images/per_doc.png)
 
