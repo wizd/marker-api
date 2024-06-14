@@ -80,7 +80,7 @@ def main():
 
     # Start the server
     import uvicorn
-    uvicorn.run(app, host=args.host, port=args.port , workers=args.workers)
+    uvicorn.run("server:app", host=args.host, port=args.port, workers=args.workers)
 
 if __name__ == "__main__":
     main()
